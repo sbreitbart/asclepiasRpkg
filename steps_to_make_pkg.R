@@ -110,7 +110,14 @@ use_test("greet")
 # but what about others' computers?
 # ==continuous integration
 
+use_github_action_check_standard()
+# creates a status button in readme!
+# I can see how it's continuously testing the functions
+# after each push!
 
 
+# share package -----
 
+# install.packages("devtools")
+devtools::install_github("sbreitbart/asclepiasRpkg")
 

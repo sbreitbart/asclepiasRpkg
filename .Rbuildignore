@@ -3,3 +3,6 @@
 ^LICENSE\.md$
 ^steps_to_make_pkg.R
 ^\.github$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
