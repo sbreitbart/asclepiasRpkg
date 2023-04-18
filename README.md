@@ -2,6 +2,7 @@
 # asclepiasRpkg
 
 <!-- badges: start -->
+[![R-CMD-check](https://github.com/sbreitbart/my_first_pkg/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/sbreitbart/my_first_pkg/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of asclepiasRpkg is to ...
@@ -12,7 +13,7 @@ You can install the development version of asclepiasRpkg from [GitHub](https://g
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("sbreitbart/my_first_pkg")
+devtools::install_github("sbreitbart/asclepiasRpkg")
 ```
 
 ## Example
