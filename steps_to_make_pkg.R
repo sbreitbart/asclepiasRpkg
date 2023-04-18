@@ -121,3 +121,18 @@ use_github_action_check_standard()
 # install.packages("devtools")
 devtools::install_github("sbreitbart/asclepiasRpkg")
 
+# polish package -----
+
+use_pkgdown_github_pages()
+# now I have a website!
+# https://sbreitbart.github.io/asclepiasRpkg/
+
+
+# Add a vignette to your package
+use_vignette("asclepiasRpkg")
+
+# Add a code of conduct to your repo
+use_code_of_conduct("asclepiasRpkg")
+
+# Make a checklist of what you need to do to submit your package to CRAN
+use_release_issue()
