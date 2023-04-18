@@ -1,2 +1,4 @@
 ^asclepiasRpkg\.Rproj$
 ^\.Rproj\.user$
+^LICENSE\.md$
+^steps_to_make_pkg.R

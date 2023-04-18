@@ -17,9 +17,9 @@ git_sitrep()
 # these are already set up
 # use_git_config(user.name = "Sophie Breitbart",
 #                user.email = "sbreitbart@wesleyan.edu")
-#                
+#
 
-git_default_branch_configure() 
+git_default_branch_configure()
 
 # I committed
 
@@ -36,5 +36,25 @@ gitcreds::gitcreds_set()
 git_sitrep()
 
 # start making package-----
-
 create_package(here())
+
+# create read_me
+use_readme_md()
+
+# add my first functions
+# create new .R file
+# write a function (greet)
+# save it in the R folder w/the same name as the function
+
+# this loads all functions
+load_all()
+
+# this checks validity of package
+check()
+
+# added an MIT license with use_mit_license()
+
+# check again- no errors or warnings!
+check()
+
+# added my steps_to_make_pkg.R to .Rbuildignore
